@@ -1,0 +1,127 @@
+{
+  "games": [
+    {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "description": "What is there that hasn't already been said about this one? A seminal video game, Ocarina of Time brought The Legend of Zelda into the third dimension as successfully as the plumber made the leap in Super Mario 64. Yet where Nintendo could throw any playground-style idea into Mario's launch game, Ocarina had to tell a story and evoke a consistent mood throughout. Going back these days, the frame rate and cumbersome menus may surprise you, and Hyrule Field feels decidedly smaller (more like a field, in fact) compared to the vast kingdom of Hyrule presented in Breath of the Wild, but the pure magic of the game still shines through any ageing systems. This set the template for not only every subsequent Zelda title, but also the majority of action adventure games from the past two decades; no wonder it's so revered. The Legend of Zelda: Ocarina of Time 3D on 3DS is arguably the best way to play today, but there are things that Grezzo's excellent remake couldn't quite recapture. Whether its the Rumble Pak-powered Stone of Agony or the 64-bit mist hanging over Lake Hylia in the early hours, the N64 original still has that special something.",
+      "likeCount": 1307,
+      "developer": "Nintendo EAD",
+      "genre": [
+        "Adventure"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+      "imageUrl": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_7/SI_N64_LegendOfZeldaOcarinaOfTime_image1600w.jpg",
+      "id": 1
+    },
+    {
+      "likeCount": 958,
+      "developer": "Nintendo EAD",
+      "genre": [
+        "Adventure"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask",
+      "title": "The Legend of Zelda: Majora's Mask",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Bq+i7aLdL._SX466_.jpg",
+      "description": "Known colloquially around these parts as Majora's Marmite, the three-day cycle added a constant pressure that turned off many players. However, that cycle is also key to the unique way Majora's Mask focuses on its cast of uncanny characters and soaks the adventure in melancholy and madness. In fact, 'adventure' isn't quite the right world for this Zelda game. It's more of a Lynchian dreamscape in cartridge form, and one which isn't for everyone. The excellent 3DS remake is probably the best way to play these days thanks to some convenient additions for managing your limited time, but the clockwork land of Termina offers something truly unique in the Zelda series wherever you play. Oh, and we don't really call it Majora's Marmite.",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "GoldenEye 007",
+      "genre": [
+        "Action"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)",
+      "description": "The best movie tie-in ever made? Not only was Rare's game hugely influential on the console FPS genre, but it also gave N64 owners a proper 'adult' experience to sink their teeth into. At a time when PlayStation was too cool for school, GoldenEye 007 provided some real ammo in the console wars, and its four-player deathmatches — remarkably, a last-minute addition before the game went gold — led to some of the best multiplayer memories we have, for any system. You Only Live Twice>Bunker>Power Weapons? How about Licence to Kill>Facility>Pistols? We're easy, but whatever you do, make sure you've got 'Sight ON Auto-Aim OFF'. And no Odd Job.",
+      "imageUrl": "https://m.media-amazon.com/images/I/51BYGF0MF7L._SX466_.jpg",
+      "likeCount": 940,
+      "developer": "Rare"
+    },
+    {
+      "id": 4,
+      "title": "Banjo-Kazooie",
+      "genre": [
+        "Adventure",
+        "Platformer"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Banjo-Kazooie_(video_game)",
+      "description": "Rareware put out several platformers on Nintendo 64, each with their own pros and cons, but the Twycross team arguably never topped the debut of the bear and bird. There's something in the precise platforming and fairytale formula of Banjo-Kazooie that resulted in the quintessential 3D collectathon. It's big, but not sprawling; sweet, but not sickly; challenging, but never unfair (okay, a couple of those Rusty Bucket Bay jiggys walk a fine line). From the roaming grublins to Mumbo Jumbo's hilarious transformations, its colourful characters and varied worlds are shot through with humour, adorable animation, tight controls and an 'oom-pah' musical box soundtrack that nails the spirit of a cheeky storybook adventure perfectly. Mario 64 might have the edge when it comes to prestige, invention and influence — that's the 3D platformer you vote for with your head — but Banjo steals hearts. An absolutely brilliant game.",
+      "imageUrl": "https://assets-prd.ignimgs.com/2021/12/07/bk1-1638903458812.jpeg",
+      "likeCount": 904,
+      "developer": "Rare"
+    },
+    {
+      "id": 5,
+      "title": "Super Mario 64",
+      "genre": [
+        "Platformer"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Super_Mario_64",
+      "description": "The 3D platformer that defined what that label meant, it's remarkable just how much Shigeru Miyamoto and his team got right with the first swing of the bat. It's available on Switch if you nabbed a time-limited copy of Super Mario 3D All-Stars or as part of a Nintendo Switch Online subscription from October, and we could go on endlessly about its genre-birthing mechanics and the infinity of tiny details that make Super Mario 64 a joy to fire up all these years later. But you know about all that. Do yourself a favour and blast through a couple of dozen stars next time you're pondering what to play. It still feels almost as good as it did the very first time.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg",
+      "likeCount": 907,
+      "developer": "Nintendo EAD"
+    },
+    {
+      "id": 6,
+      "title": "Star Fox 64",
+      "genre": [
+        "Action",
+        "Shooter"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Star_Fox_64",
+      "description": "Known as Lylat Wars in Europe, Star Fox 64 originally came in a whopping great box containing a Rumble Pak and was many a gamer's introduction to force feedback on console. It paired beautifully with the cinematic battles and derring-do of Fox McCloud and his team's cinematic dogfighting in this on-rails shooter. It's still an excellent game all these years later, with thrilling action, delicate and precise controls, stirring music, humour, spectacle, and edge-of-your-seat excitement. Sure, it's got a surplus of Slippy Toad, but you can't have everything. Whether you're enjoying it on original hardware or playing via the Nintendo Switch Online Expansion Pak, a quick blast through this and it's clear to see why so many people think the Star Fox series peaked with its first sequel. It's not just the nostalgia talking — it really holds up beautifully two-and-a-half decades on.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+      "likeCount": 895,
+      "developer": "Nintendo EAD"
+    },
+    {
+      "id": 7,
+      "title": "Paper Mario",
+      "genre": [
+        "RPG"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Paper_Mario",
+      "description": "Two decades on and Paper Mario might not look as sharp as it once did, but it holds up very well where it matters and jostles with The Thousand-Year Door for the title of Best Paper Mario Game. The N64 original does very well to ease Mario fans into a new style of adventure while providing a depth for RPG gamers that you might not expect from the paper-thin premise. With a great supporting cast and buckets of trademark Nintendo charm, the original is up there with the best. The ability to play it on Switch is great news to anyone who missed out but still enjoys the more recent, less vital entries in the Paper Mario series.",
+      "imageUrl": "https://i.ebayimg.com/images/g/p-oAAOSw6fle6c6~/s-l600.jpg",
+      "likeCount": 885,
+      "developer": "Intelligent System"
+    },
+    {
+      "id": 8,
+      "title": "Perfect Dark",
+      "genre": [
+        "Action",
+        "Shooter"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Perfect_Dark",
+      "description": "An incredible follow-up to GoldenEye which threw in every idea the developers at Rare could muster (plus a kitchen sink or two), Perfect Dark really stretched the Nintendo 64 hardware and was arguably the most ambitious game on the console. James Bond was never going to be an easy act to follow, but Joanna Dark's noir-ish sci-fi was as good a spiritual sequel as you could hope to have — close to perfect, in fact — and two decades on, it still stands as a remarkable achievement.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Perfect_dark_box.jpg/220px-Perfect_dark_box.jpg",
+      "likeCount": 884,
+      "developer": "Rare"
+    },
+    {
+      "id": 9,
+      "title": "Super Smash Bros",
+      "genre": [
+        "Fighting"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Super_Smash_Bros._(video_game)",
+      "description": "Bearing in mind how carefully Nintendo began managing its characters and their image after the misfire of the Super Mario Bros. movie in the early '90s, it's remarkable that the original Super Smash Bros. and its inter-franchise scrapping got off the drawing board at HAL Laboratories. Fortunately, Masahiro Sakurai's crossover brawler was permitted to exist and it would grow over the years to become one of the world's biggest fighting games. The number of combatants and complexity of the N64 original may pale in comparison with the increasingly incredible Super Smash Bros. Ultimate roster plucked from the annals of video gaming history, but we still look back fondly on the very first time we had the opportunity to open a can of whoop-ass on Pikachu.",
+      "imageUrl": "https://i.ebayimg.com/images/g/2XsAAOSwU59fEAWP/s-l300.jpg",
+      "likeCount": 887,
+      "developer": "Nintendo"
+    },
+    {
+      "id": 10,
+      "title": "F-Zero X",
+      "genre": [
+        "Racing"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/F-Zero_X",
+      "description": "Forum wars continue to wage over whether F-Zero X or its successor on GameCube is the superior white-knuckle futuristic racer. Both are essential, of course. The 64-bit entry is metal: pure, simple, guitar-screeching, all-out metal. EAD stripped back extraneous detail to achieve the smoothest, most blistering and nail-bitingly precise racing experience. At this speed, on these dizzying tracks, even the tiniest prod on the spindly analogue stick matters, and the original N64 pad offers peak precision for micro adjustments which make the difference between gracefully sweeping through a corner with nary a pixel to spare… or catching said corner and ricocheting between barriers to an explosive, humiliating retirement. How much more metal could this get? None. None more metal. Flaming skulls and chromed motorcycles would actually reduce the metal content of this game.",
+      "imageUrl": "https://i.ebayimg.com/images/g/UJYAAOSw2s1Uyk42/s-l640.jpg",
+      "likeCount": 868,
+      "developer": "Nintendo EAD"
+    }
+  ]
+}
