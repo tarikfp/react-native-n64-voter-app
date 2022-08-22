@@ -1,4 +1,4 @@
-# N64 Voter App
+# N64 Voter App  🎮
 
 ## Introduction
 
