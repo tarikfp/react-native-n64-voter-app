@@ -21,6 +21,90 @@ on our favorite Nintendo 64 game.
   - It should allow voting on the 5-10 most popular N64 games.
   - The definition of 'popular' is up to you. Can be rating, sales or your personal opinion.
   - Clicking/tapping on a game casts a vote. The vote count should be visible somehow.
+  
+
+
+<h2>Demo</h2>
+
+<div align="center">
+  <img src="./docs/demo.gif"/>
+</div>
+
+---
+
+<h2>Running e2e tests</h2>
+
+
+<div align="center">
+  <img src="./docs/e2e-demo.gif"/>
+</div>
+
+&nbsp;
+<details><summary> Code </summary>
+
+```js
+// For more info on how to write Detox tests, see the official docs:
+// https://github.com/wix/Detox/blob/master/docs/README.md
+
+const { reloadApp } = require("./reload");
+
+describe("Example", () => {
+  beforeEach(async () => {
+    await reloadApp();
+  });
+
+  it("First game card has the like text and button are available on the screen", async () => {
+    // tests if the elements are on the screen
+    await expect(element(by.id("game-card-like-text-1"))).toExist();
+    await expect(element(by.id("game-card-like-button-1"))).toExist();
+
+    // test game card has the like text available on the screen
+    const likeTextAttrs = await element(
+      by.id("game-card-like-text-1"),
+    ).getAttributes();
+
+    await expect(element(by.text(likeTextAttrs.text))).toExist();
+  });
+
+  it("pressing the like button of the first game card should increase the like count by one", async () => {
+    // get like text(like count) before the like button is "tapped"
+    const beforeLikeTextAttrs = await element(
+      by.id("game-card-like-text-1"),
+    ).getAttributes();
+
+    // Tap to the like button to increase like count
+    await element(by.id("game-card-like-button-1")).tap();
+
+    // calculate final like text(count)
+    const increasedLike = Number(beforeLikeTextAttrs.text) + 1;
+
+    // get updated like text
+    const afterLikeText = await element(
+      by.id("game-card-like-text-1"),
+    ).getAttributes();
+
+    // test whether the like text(count) has been increased
+    await expect(element(by.text(afterLikeText.text.toString()))).toHaveText(
+      increasedLike.toString(),
+    );
+  });
+});
+
+```
+
+</details>
+
+
+<h2>Covered concepts</h2>
+
+- Detox e2e testing
+- React Native Storybook
+- React Native Animations
+- React Compound Components
+- React Context
+- Json server
+- Optimistic updates with react query
+
 
 ## Running locally
 
@@ -28,7 +112,7 @@ Install dependencies
 
 ```bash
   yarn install
-```
+  ```
 
 Run json-server
 
