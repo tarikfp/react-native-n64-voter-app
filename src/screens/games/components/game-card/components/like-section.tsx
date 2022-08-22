@@ -1,22 +1,23 @@
 import { useGameCardContext } from "@/screens/games/components/game-card/components/context";
 import { COLORS, FONTS } from "@/theme";
 import * as React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import * as Animatable from "react-native-animatable";
 
 export default function GameCardLikeSection() {
-  const { likeCount, onAnimationEnd, shouldAnimate } = useGameCardContext();
+  const { likeCount, onAnimationEnd, shouldAnimate, id } = useGameCardContext();
 
   return (
     <View style={styles.row}>
-      <Text style={styles.likeLabel}>Likes: </Text>
+      <Text style={styles.likeLabel}>Likes: ♥️ </Text>
       <Animatable.Text
+        testID={`game-card-like-text-${id}`}
         duration={800}
         useNativeDriver
         onAnimationEnd={onAnimationEnd}
         animation={shouldAnimate ? "bounceIn" : undefined}
         style={styles.likeValue}>
-        ♥️ {likeCount}
+        {likeCount}
       </Animatable.Text>
     </View>
   );

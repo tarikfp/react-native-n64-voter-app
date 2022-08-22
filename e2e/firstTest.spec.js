@@ -9,12 +9,39 @@ describe("Example", () => {
     await reloadApp();
   });
 
-  it("should have welcome screen", async () => {
-    await expect(element(by.id("WelcomeScreen"))).toBeVisible();
+  it("First game card has the like text and button are available on the screen", async () => {
+    // tests if the elements are on the screen
+    await expect(element(by.id("game-card-like-text-1"))).toExist();
+    await expect(element(by.id("game-card-like-button-1"))).toExist();
+
+    // test game card has the like text available on the screen
+    const likeTextAttrs = await element(
+      by.id("game-card-like-text-1"),
+    ).getAttributes();
+
+    await expect(element(by.text(likeTextAttrs.text))).toExist();
   });
 
-  it("should tap the button and text content should change", async () => {
-    await element(by.id("tap-me")).tap();
-    await expect(element(by.id("counter"))).toHaveText("1");
+  it("pressing the like button of the first game card should increase the like count by one", async () => {
+    // get like text(like count) before the like button is "tapped"
+    const beforeLikeTextAttrs = await element(
+      by.id("game-card-like-text-1"),
+    ).getAttributes();
+
+    // Tap to the like button to increase like count
+    await element(by.id("game-card-like-button-1")).tap();
+
+    // calculate final like text(count)
+    const increasedLike = Number(beforeLikeTextAttrs.text) + 1;
+
+    // get updated like text
+    const afterLikeText = await element(
+      by.id("game-card-like-text-1"),
+    ).getAttributes();
+
+    // test whether the like text(count) has been increased
+    await expect(element(by.text(afterLikeText.text.toString()))).toHaveText(
+      increasedLike.toString(),
+    );
   });
 });
