@@ -131,3 +131,4 @@ or for android
 ```bash
   yarn run android
 ```
+For `pod install`, if you don't have cocoapods installed [here's a reliable way to install cocoapods](https://srz.io/posts/2022/01/installing-cocoapods/) in Nov 2022 that worked on MacOS Monterey/M2
