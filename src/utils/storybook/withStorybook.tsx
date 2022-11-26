@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Platform, View, ViewStyle } from "react-native";
-import { default as COMMON_STYLES } from "@/theme/common-styles";
 import { Subtract } from "utility-types";
+import { default as COMMON_STYLES } from "@/theme/common-styles";
 import StorybookUIRoot from "../../../.storybook/storybook";
 
 export interface WithStorybookUIProps {

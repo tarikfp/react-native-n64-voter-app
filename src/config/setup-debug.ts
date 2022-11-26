@@ -4,7 +4,7 @@ if (__DEV__) {
   if (Platform.OS === "ios") {
     NativeModules.DevSettings.setIsDebuggingRemotely(false);
   } else {
-    import("../config/reactotron").then(() =>
+    import("./reactotron").then(() =>
       // eslint-disable-next-line no-console
       console.log("Reactotron Configured"),
     );
