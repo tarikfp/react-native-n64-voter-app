@@ -120,15 +120,18 @@ Run json-server
   yarn start-server
 ```
 
-Start the emulator for ios
+Start the emulator for ios.
 
 ```bash
  cd ios && pod install && yarn run ios
 ```
+
+- For `pod install`, if you don't have cocoapods installed [here's a reliable way to install cocoapods](https://srz.io/posts/2022/01/installing-cocoapods/) in Nov 2022 that worked on MacOS Monterey/M2
+- This assumes you have a simulator available for "iPhone 13". If you don't, simply include the name of one of the simulators installed e.g. `yarn run ios --simulator="iPhone 14"`
+
 
 or for android
 
 ```bash
   yarn run android
 ```
-For `pod install`, if you don't have cocoapods installed [here's a reliable way to install cocoapods](https://srz.io/posts/2022/01/installing-cocoapods/) in Nov 2022 that worked on MacOS Monterey/M2

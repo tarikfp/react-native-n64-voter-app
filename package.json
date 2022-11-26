@@ -36,7 +36,7 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.14",
     "@react-native-community/clipboard": "^1.5.1",
-    "@react-native-community/datetimepicker": "^3.4.6",
+    "@react-native-community/datetimepicker": "^6.7.0",
     "@react-native-community/netinfo": "^8.1.0",
     "@react-native-masked-view/masked-view": "^0.2.6",
     "@react-navigation/bottom-tabs": "^6.3.1",
@@ -109,6 +109,9 @@
     "eslint-plugin-react-native": "^4.0.0",
     "husky": "^7.0.4",
     "jest": "^26.6.3",
+    "jest-junit": "^15.0.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "metro-babel-register": "^0.73.3",
     "metro-react-native-babel-preset": "^0.67.0",
     "prettier": "^2.6.1",
     "react-native-clean-project": "^4.0.1",
